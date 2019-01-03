@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Marvelous Index</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">In Tribute</a>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      	<div class="jumbotron">
+          <img src="https://pbs.twimg.com/profile_images/1018943227791982592/URnaMrya_400x400.jpg" class="center" width="128" height="128">
+          <h1 class="text-center">Stan Lee's</h1>
+  	    	<h2 class="text-center">Marvelous Index</h2>
+          <h3 class="text-center">To the #1 creator that took us to worlds unknown, this site</h3>
+          <h3 class="text-center">will allow us to also look at other #1's out there!</h3>
+          <h3 class="text-center">Enter the name of a Marvel comic series to see the #1 editions released.</h3>
+          <h3 class="text-center">Example - "The Amazing Spider-man"</h3>
+          <h1 class="text-center">ENJOY!</h1>
+
+  	    	<form id="searchForm">
+  	    		<input type="text" class="form-control" id="searchText" placeholder="Search Comics...">
+  	    	</form>
+  	    </div>
+    </div>
+
+    <div class="container">
+          <div id="comics" class="row"></div>
+        </div>
+
+        <script
+       src="https://code.jquery.com/jquery-3.1.1.min.js"
+       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+       crossorigin="anonymous"></script>
+       <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+       <script src="js/main.js"></script>
+
+  </body>
+</html>
